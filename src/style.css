@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:
+    radial-gradient(
+      ellipse at top right,
+      rgba(255, 77, 141, 0.22),
+      transparent 55%
+    ),
+    linear-gradient(135deg, #0b0b0b 0%, #000000 100%);
+}
+.glow-pink {
+  box-shadow: 0 0 25px rgba(255, 47, 125, 0.35);
+}
+.nav-link {
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #FF2F7D; /* pink */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FF2F7D;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active state */
+.nav-link.active {
+  color: #FF2F7D;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 40px);
+  }
+}
+
