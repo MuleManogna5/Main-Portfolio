@@ -26,7 +26,7 @@ export const projects = [
     description:
       "Personal portfolio showcasing projects with smooth navigation and clean UI.",
     tech: ["HTML", "CSS" , "Tailwind", "JavaScript"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://mulemanogna5.github.io/Main-Portfolio/",
     gradient: "from-pink-500/20 to-rose-500/20",
   },
   {
