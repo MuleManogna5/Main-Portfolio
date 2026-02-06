@@ -29,11 +29,13 @@ export function Hero() {
         View Projects →
       
       <a
-        href="/Manogna_M_Resume.pdf"
-        download
-        class="border border-white/20 px-7 py-3 rounded-xl transition hover:bg-white/5 inline-block">
-        Download Resume
-      </a>
+  href="./Manogna_M_Resume.pdf"
+  target="_blank"
+  class="border border-white/20 px-7 py-3 rounded-xl transition hover:bg-white/5 inline-block"
+>
+  View Resume
+</a>
+
       
       </div>
 
