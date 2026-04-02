@@ -27,6 +27,7 @@ export function Hero() {
         class="bg-primary text-black px-7 py-3 rounded-xl font-semibold transition hover:scale-105"
       >
         View Projects →
+      </button>  
       
    <a
   href="./Manogna_M_Resume.pdf"

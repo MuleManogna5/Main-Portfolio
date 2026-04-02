@@ -19,7 +19,7 @@ export function Header() {
 
     <!-- CTA -->
     <a
-      href="#/contact"
+      href="#contact"
       class="bg-primary text-black px-5 py-2 rounded-lg font-semibold hover:scale-105 transition"
     >
       Hire Me

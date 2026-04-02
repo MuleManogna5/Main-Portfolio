@@ -11,12 +11,12 @@ export const projects = [
   },
   {
     id: 2,
-    category: "UI/UX Design & NLP Application",
-    title: "Textus - Revelio",
+    category: "UI/UX Design ",
+    title: "Memories-By-Friends",
     description:
       "NLP fastapi sentiment-analysis named-entity-recognition pos-tagging python web-app ui-ux machine-learning.",
     tech: ["HTML", "CSS", "JavaScript" , "Python"],
-    github: "https://github.com/MuleManogna5/Textus-Revelio",
+    github: "https://teal-madeleine-b708a3.netlify.app/",
     gradient: "from-indigo-500/20 to-blue-500/20",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     description:
       "A password generator that creates strong and secure passwords using user-selected criteria.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/MuleManogna5/password-project",
+    github: "https://mulemanogna5.github.io/password-project/",
     gradient: "from-purple-500/20 to-fuchsia-500/20",
   },
   {
@@ -46,27 +46,37 @@ export const projects = [
     description:
       "Web-based sentiment analysis application built using HTML, CSS, and JavaScript with an interactive UI.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/MuleManogna5/sentiment-analysis",
+    github: "https://mulemanogna5.github.io/sentiment-analysis/",
     gradient: "from-orange-500/20 to-amber-500/20",
   },
   {
     id: 6,
+    category: "UI/UX Design & NLP Application",
+    title: "Textus - Revelio",
+    description:
+      "NLP fastapi sentiment-analysis named-entity-recognition pos-tagging python web-app ui-ux machine-learning.",
+    tech: ["HTML", "CSS", "JavaScript" , "Python"],
+    github: "https://github.com/MuleManogna5/Textus-Revelio",
+    gradient:"from-emerald-500/20 to-teal-500/20",
+  },
+  {
+    id: 7,
     category: "UI Design & Web Application",
     title: "Mind Hue",
     description:
       "Web-based sentiment analysis application built using HTML, CSS, and JavaScript with an interactive UI.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/MuleManogna5/Mind-Hue",
-    gradient: "from-emerald-500/20 to-teal-500/20",
+    gradient: "from-indigo-500/20 to-blue-500/20",
   },
   {
-    id: 7,
+    id: 8,
     category: "UI Design & Database",
     title: "College Management Application",
     description:
       " A college management system to handle student records, courses, and faculty information with a user-friendly interface",
     tech: ["HTML", "CSS", "JavaScript" , "Python"],
     github: "https://github.com/MuleManogna5/college-lab",
-    gradient: "from-indigo-500/20 to-blue-500/20",
+    gradient: "from-pink-500/20 to-rose-500/20",
   },
 ];
